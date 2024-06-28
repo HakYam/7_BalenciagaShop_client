@@ -1,0 +1,21 @@
+.slider {
+    .carousel-item {
+        img {
+            height: 50vh; // Default height for smaller screens
+            object-fit: cover;
+        }
+    }
+    
+}
+
+@media (min-width: 768px) {
+    .slider .carousel-item img {
+        height: 40vh; // Height for medium to large screens (e.g., tablets and desktops)
+    }
+}
+
+@media (min-width: 992px) {
+    .slider .carousel-item img {
+        height: 90vh; // Height for larger screens (e.g., desktops)
+    }
+}
