@@ -48,20 +48,17 @@ const Navbar = () => {
                         <li className="nav-item">
                             <Link className="nav-link" to="/products/2">Men</Link>
                         </li>
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/products/3">Children</Link>
-                        </li>
                     </ul>
                     <Link className="navbar-brand d-none d-lg-block mx-auto fs-3" to="/">Balenciaga</Link>
                     <ul className="navbar-nav ms-auto mb-2 mb-lg-0 d-none d-lg-flex flex-lg-row">
                         <li className="nav-item">
-                            <Link className="nav-link" to="/about">About</Link>
+                            <Link className="nav-link" to="#">About</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/contact">Contact</Link>
+                            <Link className="nav-link" to="#">Contact</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/stores">Stores</Link>
+                            <Link className="nav-link" to="#">Stores</Link>
                         </li>
                         <li className="nav-item d-flex align-items-center px-2">
                             <SearchIcon />
