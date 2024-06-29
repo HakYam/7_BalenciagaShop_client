@@ -1,28 +1,23 @@
 .card {
+  width: 300px; /* Fixed width for the card */
   border: 1px solid #ddd;
   border-radius: 8px;
   overflow: hidden;
   transition: transform 0.3s;
-  
 
- 
-  
-  
- 
   &:hover {
     transform: scale(1.05);
   }
 
   .card-img-top {
-    transition: opacity 0.3s;
+    width: 100%; /* Ensures the image fits the card width */
     height: 20rem;
-    
+    object-fit: cover; /* Maintains the aspect ratio */
+    transition: opacity 0.3s;
+
     @media screen and (max-width: 768px) {
       height: 15rem;
-      
-      object-fit: cover;
     }
-    
   }
 
   .secondImg {
@@ -39,8 +34,8 @@
     border-radius: 5px;
     padding: 2px 5px;
   }
+
   .card-title {
     font-size: 14px;
   }
-
 }
