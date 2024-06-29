@@ -60,3 +60,4 @@ The backend is built with Strapi. You can find the repository and admin dashboar
 ├── package-lock.json         # Locked versions of dependencies
 ├── vite.config.js            # Vite configuration
 └── vercel.json               # Vercel deployment configuration
+
