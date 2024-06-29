@@ -27,6 +27,8 @@ The backend is built with Strapi. You can find the repository and admin dashboar
 - **Vercel**: A platform for frontend developers to deploy websites and web applications.
 
 ## Project Structure
+
+<pre>
 7_BalenciagaShop_client/
 ├── public/                   # Public assets
 │   ├── img/                  # Images
@@ -60,4 +62,4 @@ The backend is built with Strapi. You can find the repository and admin dashboar
 ├── package-lock.json         # Locked versions of dependencies
 ├── vite.config.js            # Vite configuration
 └── vercel.json               # Vercel deployment configuration
-
+</pre>
