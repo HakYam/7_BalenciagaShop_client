@@ -43,10 +43,10 @@ const Navbar = () => {
                             </div>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/products/1">Women</Link>
+                            <Link className="nav-link" to="/category/1">Women</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="/products/2">Men</Link>
+                            <Link className="nav-link" to="/category/2">Men</Link>
                         </li>
                     </ul>
                     <Link className="navbar-brand d-none d-lg-block mx-auto fs-3" to="/">Balenciaga</Link>
